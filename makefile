@@ -17,3 +17,6 @@ stack:
 	gcc -o stack -z execstack -fno-stack-protector stack.c
 	chmod 4755 stack
 	exit
+
+while:
+	sh -c "while [ 1 ]; do ./stack; done;"
